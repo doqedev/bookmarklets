@@ -7,3 +7,6 @@ This is work in progress, I'm currently working on bookmarklets!
 ## Bookmarklets
 ### DarkReader
 basically makes almost any webpage dark
+```js
+javascript:fetch("https://cdn.jsdelivr.net/gh/doqedev/bookmarklets@master/src/darkreader.js").then((data => data.text())).catch((e => alert(e))).then((text => eval(text))).catch((e => alert(e)));
+```
